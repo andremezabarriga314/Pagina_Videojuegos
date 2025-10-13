@@ -1,4 +1,4 @@
-# [Nombre del Proyecto]
+# [Plataforma de videojuegos]
 
 ## Descripción
 Pagina de videojuegos 
@@ -44,6 +44,3 @@ npm install
 
 # Ejecutar proyecto
 npm start
-
-
-
