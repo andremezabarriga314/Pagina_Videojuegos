@@ -1,225 +1,270 @@
-# Prototipos del Proyecto
+🎮 Prototipos del Proyecto
+📄 Información del Documento
 
-## Información del Documento
+Última actualización: 14/10/2025
 
-**Última actualización:** [DD/MM/YYYY]  
-**Versión del prototipo:** [v1.0]  
-**Herramienta:** Figma  
+Versión del prototipo: v1.0
 
----
+Herramienta: Figma
 
-## Propósito del Prototipo
+🎯 Propósito del Prototipo
 
-Este documento centraliza toda la información sobre los **diseños y prototipos** creados en Figma para el proyecto. Sirve como **puente entre el diseño UX/UI y el desarrollo técnico**, facilitando la implementación durante los sprints.
+Este documento centraliza toda la información sobre los diseños y prototipos creados en Figma para el proyecto. Sirve como puente entre el diseño UX/UI y el desarrollo técnico, facilitando la implementación durante los sprints.
 
-**Objetivos del prototipo:**
-- Validar la **experiencia de usuario** antes de desarrollar
-- Alinear la **visión del producto** entre todos los miembros del equipo
-- Servir como **referencia visual** durante el desarrollo backend y frontend
-- Documentar las **decisiones de diseño** tomadas en cada sprint
+Objetivos del prototipo:
 
----
+Validar la experiencia de usuario antes de desarrollar
 
-## Enlaces Principales
+Alinear la visión del producto entre todos los miembros del equipo
 
-### Proyecto Principal
-**URL:** [https://www.figma.com/design/1fce47bdCDvksxEblswxpp/Pagina-web-videojuegos?node-id=0-1&t=ZrpCdin1kcN74aWM-1]
+Servir como referencia visual durante el desarrollo backend y frontend
 
----
+Documentar las decisiones de diseño tomadas en cada sprint
 
-## Estructura del Prototipo
+🔗 Enlaces Principales
+Proyecto Principal
 
-### Sistema de Diseño
+URL Figma:
+https://www.figma.com/design/1fce47bdCDvksxEblswxpp/Pagina-web-videojuegos?node-id=0-1&t=ZrpCdin1kcN74aWM-1
 
-**Paleta de colores:**
-- **Color primario:** #XXXXXX - Acciones principales
-- **Color secundario:** #XXXXXX - Elementos complementarios
-- **Color de acento:** #XXXXXX - Llamadas a la acción
-- **Colores de estado:**
-  - Éxito: #XXXXXX
-  - Error: #XXXXXX
-  - Advertencia: #XXXXXX
-  - Info: #XXXXXX
+🧱 Estructura del Prototipo
+🧩 Sistema de Diseño
+🎨 Paleta de colores:
 
-**Tipografía:**
-- **Principal:** [Nombre de fuente] - Textos y contenido
-- **Títulos:** [Nombre de fuente] - Encabezados
+Color primario: #00FF00 – Acciones principales (botones destacados, CTA)
 
+Color secundario: #121212 – Fondos y contenedores
 
-**Espaciado:**
-- Sistema de **8px grid**
-- Espaciado base: 8px, 16px, 24px, 32px
+Color de acento: #1DB954 – Resaltado de precios, ofertas y acciones
 
----
+Colores de estado:
 
-## Pantallas incluidas:**
-### Flujo Principal
-1. **Página de bienvenida**
-   
+Éxito: #28A745
 
-2. **Formulario de registro**
-   
+Error: #DC3545
 
-3. **Verificación de email**
-   
+Advertencia: #FFC107
 
-4. **Login**
-   
+Info: #17A2B8
 
-**Interacciones prototipadas:**
-- Navegación entre pantallas
-- Validación de formularios
-- Mensajes de error/éxito
-- Estados de carga (loading)
+🔤 Tipografía:
 
+Principal: Roboto – Para textos, formularios, descripciones
 
-## 🧩 Componentes Reutilizables
+Títulos: Orbitron – Para encabezados, secciones destacadas
 
+📐 Espaciado:
 
-**Componentes diseñados:**
+Sistema de 8px grid
 
-#### Botones
-- **Primario:** Acciones principales (guardar, enviar)
-- **Secundario:** Acciones secundarias (cancelar, volver)
-- **Terciario:** Acciones terciarias (enlaces, texto)
-- **Estados:** Default, hover, active, disabled, loading
+Usos recomendados:
 
-#### Formularios
-- **Input text:** Entrada de texto estándar
-- **Input password:** Con toggle de visibilidad
-- **Select dropdown:** Con búsqueda
-- **Checkbox:** Individual y grupos
-- **Radio buttons:** Opciones excluyentes
-- **Date picker:** Selección de fechas
-- **File upload:** Carga de archivos
+Margen pequeño: 8px
 
-#### Navegación
-- **Navbar:** Barra superior de navegación
-- **Sidebar:** Menú lateral colapsable
-- **Tabs:** Pestañas para contenido
-- **Pagination:** Paginación de listas
+Espaciado medio: 16px / 24px
 
-#### Feedback
-- **Toast notifications:** Mensajes temporales
-- **Modals:** Ventanas emergentes
-- **Alerts:** Avisos en contexto
-- **Loading spinners:** Indicadores de carga
-- **Progress bars:** Barras de progreso
+Espaciado grande: 32px
 
-#### Visualización de datos
-- **Cards:** Tarjetas de información
-- **Tables:** Tablas de datos
-- **Charts:** Gráficos (si aplica)
-- **Stats cards:** Tarjetas de estadísticas
+📱 Pantallas Incluidas
+Flujo Principal de Usuario
 
----
+Página de bienvenida
 
-### Responsive Design
+Formulario de registro
 
-**Breakpoints definidos:**
-- **Mobile:** 320px - 767px
-- **Desktop:** 1024px+
+Verificación de email
 
-### Accesibilidad
+Inicio de sesión (login)
 
-**Criterios implementados:**
-- Contraste de colores según WCAG 2.1 AA
-- Textos alternativos para imágenes
-- Navegación por teclado
-- Estados de foco visibles
-- Jerarquía semántica de encabezados
+Interacciones Prototipadas:
 
+Navegación completa entre pantallas
 
+Validaciones de formularios (email, password)
 
-## 📋 Checklist de Implementación
+Estados de error y éxito
 
-### Para el Equipo de Desarrollo
+Indicadores de carga (loading spinners)
 
-**Antes de comenzar un sprint:**
-- [ ] Revisar el prototipo de Figma correspondiente al sprint
-- [ ] Identificar todos los componentes necesarios
-- [ ] Validar los endpoints de backend requeridos
-- [ ] Confirmar las historias de usuario vinculadas
+🧩 Componentes Reutilizables
+📌 Botones
 
-**Durante el desarrollo:**
-- [ ] Consultar especificaciones de diseño (colores, tipografía, espaciado)
-- [ ] Implementar estados de los componentes (hover, active, disabled)
-- [ ] Validar responsive design en todos los breakpoints
-- [ ] Solicitar feedback del diseñador si hay dudas
+Primario: Confirmar, Guardar, Continuar
 
-**Al finalizar:**
-- [ ] Comparar implementación con el prototipo
-- [ ] Actualizar este documento con notas de implementación
-- [ ] Marcar las pantallas como completadas
+Secundario: Volver, Cancelar
 
----
+Terciario: Links y acciones secundarias
 
-## 🎨 Assets y Recursos
+Estados:
 
-### Imágenes y Gráficos
+Default
 
-**Ubicación:** `src/frontend/assets/images/`
+Hover
 
-**Assets exportados de Figma:**
-- Logotipo (SVG, PNG)
-- Iconos personalizados (SVG)
-- Imágenes de placeholder (PNG, WebP)
-- Ilustraciones (SVG)
+Active
 
-**Convención de nombres:**
-```
-[tipo]-[descripcion]-[tamaño].[extension]
+Disabled
+
+Loading
+
+📝 Formularios
+
+Input text: Campos estándar
+
+Input password: Con botón de visibilidad
+
+Select dropdown: Con búsqueda activa
+
+Checkbox / Radio: Para múltiples opciones
+
+Date picker: Selector de fechas
+
+File upload: Carga de archivos/imágenes
+
+📚 Navegación
+
+Navbar superior: Logo, navegación, perfil
+
+Sidebar lateral: Menú colapsable (categorías, filtros)
+
+Tabs: Subcategorías (ej. dentro de un género)
+
+Paginación: Listas extensas de juegos
+
+🔔 Feedback UI
+
+Toast notifications: Confirmaciones rápidas
+
+Modales: Confirmaciones o formularios emergentes
+
+Alerts: Información contextual (errores, advertencias)
+
+Spinners / Loaders: Estados de carga
+
+Progress bars: Avances en checkout
+
+📊 Visualización de Datos
+
+Cards: Juegos, accesorios, componentes
+
+Tables: Comparación técnica o specs
+
+Charts: (No aplican en esta versión, pero podrían incluirse más adelante)
+
+Stats cards: Resumen de productos, total en carrito
+
+📐 Responsive Design
+
+Breakpoints definidos:
+
+Dispositivo	Rango de resolución
+Mobile	320px – 767px
+Desktop	1024px en adelante
+♿ Accesibilidad
+
+Implementado según estándares WCAG 2.1 AA:
+
+Alto contraste de colores
+
+Textos alternativos para imágenes
+
+Navegación completa por teclado
+
+Indicadores visuales de foco
+
+Encabezados semánticos (<h1>, <h2>, etc.)
+
+✅ Checklist de Implementación
+🔄 Antes del Sprint
+
+ Revisar prototipo de Figma
+
+ Identificar componentes clave
+
+ Validar endpoints necesarios
+
+ Confirmar historias de usuario asociadas
+
+👨‍💻 Durante el Desarrollo
+
+ Usar estilos según diseño (colores, fuentes)
+
+ Incluir todos los estados (hover, active, disabled)
+
+ Adaptar a responsive design
+
+ Consultar al diseñador ante dudas
+
+✅ Al Finalizar
+
+ Comparar 1:1 con el prototipo
+
+ Documentar detalles técnicos
+
+ Marcar pantallas como completadas en el sistema de gestión
+
+🖼️ Assets y Recursos
+
+Ubicación de los recursos:
+src/frontend/assets/images/
+
+Nomenclatura recomendada:
+
+[tipo]-[descripcion]-[tamaño].[extensión]
 
 Ejemplos:
 icon-user-24px.svg
 logo-primary-full.svg
 img-hero-1920x1080.webp
 illus-empty-state.svg
-```
 
+❓ Preguntas Frecuentes
 
-### Preguntas Frecuentes
+¿Dónde encuentro los espaciados exactos?
+→ En Figma, selecciona el elemento y revisa el panel derecho. Sigue la grilla de 8px.
 
-**P: ¿Dónde encuentro las medidas exactas de espaciado?**  
-R: En Figma, selecciona cualquier elemento y revisa el panel de propiedades. Todos los espaciados siguen el sistema de 8px grid.
+¿Puedo modificar un componente?
+→ Consulta con el equipo. Si es una excepción, crea una variante; si es recurrente, actualiza el componente base.
 
-**P: ¿Puedo modificar un componente para un caso específico?**  
-R: Consulta primero con el equipo. Si es un caso único, crea una variante. Si es recurrente, actualiza el componente base en Figma.
+¿Cómo exporto imágenes de Figma?
+→ Selecciona el asset > Panel derecho > Export > Selecciona formato y resolución > Exportar.
 
-**P: ¿Cómo exporto assets de Figma?**  
-R: Selecciona el elemento → Export → Configura formato y resolución → Export [nombre].
+📞 Contacto y Soporte
 
----
+Responsable de diseño: [Nombre del diseñador principal]
 
-## Contacto y Soporte
+Canal de comunicación: [Slack / Discord / Teams]
 
-**Responsable de diseño:** [Nombre]  
-**Canal de comunicación:** [Slack, Discord, etc.]  
-**Horario de disponibilidad:** [Especificar]
+Disponibilidad: [Horario establecido]
 
-**Para dudas sobre el prototipo:**
-1. Revisar este documento primero
-2. Consultar directamente en Figma (comentarios)
-3. Preguntar en el canal del equipo
-4. Agendar sesión de revisión de diseño
+Sugerencia para dudas:
 
----
+Revisar este documento primero
 
-## 🔗 Referencias Útiles
+Usar comentarios en Figma
 
-**Documentación relacionada:**
-- `README.md` - Información general del proyecto
-- `docs/sprint-planning/` - Planificación de sprints
-- `CONTRIBUTING.md` - Guía de contribución
-- `docs/retrospectivas/` - Aprendizajes de los sprints
+Consultar en el canal de equipo
 
-**Recursos externos:**
-- [Guía de Figma](https://help.figma.com)
-- [Material Design Guidelines](https://m3.material.io)
-- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines)
+Agendar sesión de revisión si es necesario
 
----
+🔗 Referencias Útiles
 
-**Última actualización:** [Fecha]  
-**Mantenido por:** [Equipo de diseño/Product Owner]  
-**Versión del documento:** 1.0
+[README.md] – Descripción general del proyecto
+
+[docs/sprint-planning/] – Documentación de planificación
+
+[CONTRIBUTING.md] – Guía para contribuir al repositorio
+
+[docs/retrospectivas/] – Retros de cada sprint
+
+Recursos externos:
+
+Guía de Figma
+
+Material Design Guidelines
+
+Apple Human Interface Guidelines
+
+Última actualización: 14/10/2025
+Mantenido por: [Equipo de diseño / Product Owner]
+Versión del documento: 1.0
